@@ -1,0 +1,7 @@
+--- 
+open_files: 
+  - app/helpers/say_helper.rb
+  - app/helpers/application_helper.rb
+  - app/controllers/say_controller.rb
+  - app/views/layouts/application.html.erb
+  - app/views/say/hello.html.erb

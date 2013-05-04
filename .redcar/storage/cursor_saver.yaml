@@ -1,0 +1,18 @@
+--- 
+cursor_positions: 
+  - :path: app/helpers/say_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-14 16:44:51 +02:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-10-14 16:40:01 +02:00
+  - :path: app/controllers/say_controller.rb
+    :cursor_offset: 135
+    :timestamp: 2012-10-14 17:21:28 +02:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-10-21 12:10:41 +02:00
+  - :path: app/views/say/hello.html.erb
+    :cursor_offset: 141
+    :timestamp: 2012-10-14 17:22:00 +02:00
+files_to_retain: 0
