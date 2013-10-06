@@ -24,6 +24,7 @@ gem 'jquery-rails'
 
 gem 'haml'
 
+gem 'pry'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -38,3 +39,8 @@ gem 'haml'
 
 # To use debugger
 # gem 'debugger'
+
+# to use with arduino
+gem "serialport", "~> 1.1.0"
+gem "eventmachine", "~> 1.0.3"
+gem "firmata", "~> 0.1.1"

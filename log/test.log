@@ -244,3 +244,5 @@ Connecting to database specified by database.yml
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mProduct Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "products" WHERE "products"."title" IS NULL LIMIT 1[0m
   [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
