@@ -1,0 +1,41 @@
+<%= tinymce_assets %>
+<%= form_for(@tour) do |f| %>
+
+  <% if @tour.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tour.errors.count, "error") %> prohibited this tour from being saved:</h2>
+
+      <ul>
+      <% @tour.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :desc_ita %><br />
+    <%= f.text_area :desc_ita,  class: "tinymce" %>
+  </div>
+  <div class="field">
+    <%= f.label :desc_fra %><br />
+    <%= f.text_area :desc_fra %>
+  </div>
+  <div class="field">
+    <%= f.label :desc_eng %><br />
+    <%= f.text_area :desc_eng %>
+  </div>
+  <div class="field">
+    <%= f.label :desc_ger %><br />
+    <%= f.text_area :desc_ger %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+<%= tinymce %>

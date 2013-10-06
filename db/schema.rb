@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130505155825) do
+ActiveRecord::Schema.define(:version => 20131006204708) do
 
   create_table "carts", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -32,6 +32,24 @@ ActiveRecord::Schema.define(:version => 20130505155825) do
     t.decimal  "price"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+  end
+
+  create_table "tours", :force => true do |t|
+    t.string   "title"
+    t.text     "desc_ita"
+    t.text     "desc_fra"
+    t.text     "desc_eng"
+    t.text     "desc_ger"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "tracks", :force => true do |t|
+    t.string   "title"
+    t.text     "points"
+    t.integer  "tour_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

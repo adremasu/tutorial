@@ -1,4 +1,8 @@
 Demo1::Application.routes.draw do
+  resources :tracks
+
+  resources :tours
+
   resources :line_items
 
   resources :carts

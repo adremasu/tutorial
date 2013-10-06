@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b> title:</b>
+  <%= @tour. title %>
+</p>
+
+<p>
+  <b>String:</b>
+  <%= @tour.string %>
+</p>
+
+<p>
+  <b>Desc ita:</b>
+  <%= @tour.desc_ita %>
+</p>
+
+<p>
+  <b>Desc fra:</b>
+  <%= @tour.desc_fra %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%= @tour.text %>
+</p>
+
+<p>
+  <b>Desc eng:</b>
+  <%= @tour.desc_eng %>
+</p>
+
+<p>
+  <b>Desc ger:</b>
+  <%= @tour.desc_ger %>
+</p>
+
+
+<%= link_to 'Edit', edit_tour_path(@tour) %> |
+<%= link_to 'Back', tours_path %>
