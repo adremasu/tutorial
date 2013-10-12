@@ -44,3 +44,6 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 gem "serialport", "~> 1.1.0"
 gem "eventmachine", "~> 1.0.3"
 gem "firmata", "~> 0.1.1"
+gem 'jquery-rails'
+gem 'paperclip', '~> 3.0'
+gem 'nokogiri'
